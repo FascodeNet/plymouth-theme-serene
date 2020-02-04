@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Serene-logo
+Description=Serene-logo
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/serene-logo
+ScriptFile=/usr/share/plymouth/themes/serene-logo/serene-logo.script

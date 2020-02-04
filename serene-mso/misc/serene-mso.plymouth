@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Serene-MSO
+Description=Serene MSOffice Like Animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/serene-mso
+ScriptFile=/usr/share/plymouth/themes/serene-mso/serene-mso.script
