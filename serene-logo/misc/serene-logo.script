@@ -192,12 +192,13 @@ Plymouth.SetDisplayPasswordFunction(display_password_callback);
 #----------------------------------------- Message --------------------------------
 
 message_sprite = Sprite();
-message_sprite.SetPosition(logo.GetX() + 10, logo.GetY() + 10, 10000);
+message_sprite.SetPosition(Window.GetX() + Window.GetWidth()  / 2, Window.GetY() + Window.GetHeight() / 2 + Window.GetHeight() / 4, 10000);
 
 fun message_callback (text)
 {
   my_image = Image.Text(text, 1, 1, 1);
   message_sprite.SetImage(my_image);
+  message_sprite.x=Window.GetX() + Window.GetWidth() / 2 - message_sprite.GetWidth() / 2;
 }
 
 Plymouth.SetMessageFunction(message_callback);
